@@ -23,6 +23,7 @@ $(document).ready(function() {
 		speed: 'normal'
 	});
 	
+	// TODO esto creo que se puede resolver usando solo CSS. @dwaynemac
 	$(".sf-menu  li  li").hover(
 		function(){
 			console.log($(this).parent().parent().find("a").html())

@@ -12,23 +12,6 @@
 
 <!-- a partir de acá se incluye lo que es específico de cada página -->
 <link href="_recursos/css/home.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-	$(document).ready(function(){
-		$(function(){
-			$("#slideshow").cycle({
-				prev: '#prev',
-				next: '#next',
-				after: onAfter,
-			  timeout: 0
-			});
-		});
-		function onAfter(curr, next, opts) {
-		    var index = opts.currSlide;
-		    $('#prev')[index == 0 ? 'hide' : 'show']();
-		    $('#next')[index == opts.slideCount - 1 ? 'hide' : 'show']();
-		}
-	});
-</script>
 </head>
 
 <body>
@@ -62,5 +45,22 @@
 	</div>
 	<?php # Javascripts al final para mejorar performance. ?>
 	<?php include '_partial/shared/javascripts.php' ?>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(function(){
+			$("#slideshow").cycle({
+				prev: '#prev',
+				next: '#next',
+				after: onAfter,
+			  timeout: 0
+			});
+		});
+		function onAfter(curr, next, opts) {
+		    var index = opts.currSlide;
+		    $('#prev')[index == 0 ? 'hide' : 'show']();
+		    $('#next')[index == opts.slideCount - 1 ? 'hide' : 'show']();
+		}
+	});
+</script>
 </body>
 </html>
