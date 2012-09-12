@@ -1,6 +1,9 @@
 @charset "iso-8859-1";
 /* aplica para interna.html solamente */
 
+#contenido-seccion {
+  text-align: justify;
+}
 
 #texto{
 	width:600px;
