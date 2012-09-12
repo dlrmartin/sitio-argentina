@@ -22,11 +22,11 @@
   
   <div id="links">
     <ul>
-      <li><a href="javascript:;"><img src="_imagenes/icono_twitter.png" width="32" height="32" alt="Twitter" /></a></li>
-      <li><a href="javascript:;"><img src="_imagenes/icono_facebook.png" width="31" height="32" alt="Facebook" /></a></li>
-      <li><a href="javascript:;"><img src="_imagenes/icono_googleplus.png" width="32" height="32" alt="Google+" /></a></li>
-      <li><a href="javascript:;"><img src="_imagenes/icono_1.png" width="32" height="32" alt="" /></a></li>
-      <li><a href="javascript:;"><img src="_imagenes/icono_2.png" width="32" height="32" alt="" /></a></li>
+      <li><a href="http://twitter.com/metododerosear" target="_blank"><img src="_imagenes/icono_twitter.png" width="32" height="32" alt="Twitter" /></a></li>
+      <li><a href="http://facebook.com/metododerosear" target="_blank"><img src="_imagenes/icono_facebook.png" width="31" height="32" alt="Facebook" /></a></li>
+      <li><a href="https://plus.google.com/b/107140735650592465013/107140735650592465013/posts" target="_blank"><img src="_imagenes/icono_googleplus.png" width="32" height="32" alt="Google+" /></a></li>
+      <li><a href="http://pinterest.com/metododerose" target="_blank"><img src="_imagenes/icono_1.png" width="32" height="32" alt="" /></a></li>
+      <li><a href="http://foursquare.com/metododerosear" target="_blank"><img src="_imagenes/icono_2.png" width="32" height="32" alt="" /></a></li>
       
     </ul>
     <p>Par&iacute;s &ndash; Londres &ndash; New York &ndash; Roma &ndash; Barcelona &ndash; Buenos Aires &ndash; Lisboa &ndash; Porto &ndash; R&iacute;o de Janeiro &ndash; S&atilde;o Paulo</p>
