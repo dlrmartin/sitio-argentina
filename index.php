@@ -18,8 +18,8 @@
 			$("#slideshow").cycle({
 				prev: '#prev',
 				next: '#next',
-				after:   onAfter,
-			    timeout: 0
+				after: onAfter,
+			  timeout: 0
 			});
 		});
 		function onAfter(curr, next, opts) {

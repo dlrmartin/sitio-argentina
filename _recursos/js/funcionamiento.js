@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	
-		
 	//funciones de caja de texto busqueda global
 	var buscar_val_default_value = $("#caja_buscar").val();
 	$("#caja_buscar").focus(function(){
@@ -15,8 +14,6 @@ $(document).ready(function() {
 			alert("Ingresar una palabra para buscar");			
 		}
 	});
-	
-	
 	
 	//menu de navegación
 	/**/$(".sf-menu").superfish({
@@ -35,5 +32,5 @@ $(document).ready(function() {
 			$(this).parent().parent().find("a").removeClass("activo");
 		}
 	)
-	
+
 });
