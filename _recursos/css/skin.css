@@ -1,0 +1,247 @@
+/* básicos */
+
+body{
+	background-color:#fff;
+	color:#000;
+	font-family:Verdana;
+	font-size:12px;
+	text-align:center;
+	background-color:#f2edeb;
+	line-height:1.4em;
+}
+div#marco{
+	width:950px;
+	margin:0 auto;
+	text-align:left;
+}
+html, textarea, select, input{
+	font-family:Arial;
+	font-size:12px;
+}
+
+p{
+	margin-bottom:1.3em;
+}
+
+p.sinmargen-inferior{
+	margin-bottom:0;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:link{
+	color:#000;
+}
+a:hover{
+}
+a:visited{
+}
+
+
+/* ------------------CABECERA -----------------------------------------------*/
+
+
+#cabecera{
+	height:226px;
+	background:transparent url(../../_imagenes/cabecera.jpg) no-repeat;
+	position:relative;
+}
+
+#logo{
+	margin-left: 36px;
+	margin-top: 14px;
+}
+
+#links{
+	position:absolute;
+	top:160px;
+	left:450px;
+}
+
+#links ul li{
+	float:left;
+	margin-right:10px;
+}
+#links p{
+	clear: left;
+	color:#8A8077;
+	font-family:'helveticaneue_condensedRg';
+    font-size: 12px;
+    padding-top: 6px;
+	padding-left:3px;
+}
+#comunicate{
+	position:absolute;
+	top:114px;
+	left:715px;
+	color:#A19A92;
+}
+#comunicate p {
+	font-family:'helveticaneue_condensedRg';
+    font-size: 14px;
+	line-height:1.5em;
+}
+#comunicate p span{	
+    font-size: 22px;
+}
+#buscador{
+	position:absolute;
+	top:164px;
+	left:715px;
+}
+#form_buscar #caja_buscar{
+	padding:5px;
+	border:solid 1px #fff;
+	background-color:#fff;
+	color:#797776;
+	font-family:Arial;
+	font-size:12px;
+	float:left;
+	margin-right:12px;
+	vertical-align:middle;
+	width:180px;
+}
+
+
+/* ------------------NAVBAR -----------------------------------------------*/
+#menu-ppal{
+	height:48px;
+	position:relative;
+	text-align:center;
+}
+#navBar{
+	text-align:left;
+	width:375px;
+	margin:0 auto;
+	padding-top:5px;
+}
+#navBar ul {
+	margin-bottom:0;
+	text-align:left;
+}
+#navBar ul li{
+	
+}
+#navBar ul li a{
+}
+#navBar ul li a.activo,
+#navBar ul li a:hover{
+}
+
+
+/* ---------CUERPO ------------------------------------*/
+
+#cuerpo{
+	position:relative;
+	clear:both;
+	height:200px;
+	min-height:200px;
+	height:auto !important;
+	background:transparent url(../../_imagenes/fondo_seccion.jpg) repeat-y;
+}
+#sombra-cuerpo-sup{
+	width:950px;
+	height:43px;
+	position:absolute;
+	z-index:15;
+	top:0;
+	left:0;
+	background:transparent url(../../_imagenes/sombra_arriba.png) no-repeat;
+}
+
+#sombra-cuerpo-inf{
+	width:950px;
+	height:42px;
+	position:absolute;
+	z-index:16;
+	bottom:0;
+	left:0;
+	background:transparent url(../../_imagenes/sombra_abajo.png) no-repeat;
+}
+#contenido-seccion{
+	padding:50px 0;
+}
+
+
+/* ------------------PIE-----------------------------------------------*/
+
+#pie{
+	clear:both;
+	padding-top:20px;
+}
+#pie ul{
+	margin-bottom:20px;
+}
+#pie ul li{
+	display:block;
+	float:left;
+	margin-right:56px;
+}
+#pie ul li.ultimo{
+	margin-right:0;
+}
+#pie ul li h4{
+	font-family:'helveticaneue_condensedRg';
+	color:#3D3C3B;
+	font-size:20px;
+	margin-bottom:8px;
+
+}
+
+#pie ul li img{
+	display:block;
+	border:solid 5px #fff;
+}
+
+#copyright{
+	text-align:center;
+	border-top: solid 1px #b8aaa7;
+	width:85%;
+	clear:both;
+	padding:20px 0;
+	margin:0 auto;
+	margin-top:30px;
+	color:#b8aaa7;
+	font-family:'helveticaneue_condensedRg';
+	font-size: 11px;
+}
+
+/* ---------EXTRAS ------------------------------------*/
+.clearfix {display: block;clear: both; }
+.clearfix:after {
+	content: ""; 
+	display: block; 
+	height: 1%; 
+	clear: both; 
+	visibility: hidden;
+}
+
+*.esconder{
+	display:none;
+}
+.subrayado{
+	text-decoration:underline;
+}
+.sin-margen-inferior{
+	margin-bottom:0;
+}
+.con-sombra{
+	-webkit-box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.izquierda{
+	float:left;
+}
+.derecha {
+	float:right;
+}
+
+.titulo-grande{
+	font-family:'helveticaneue_condensedRg';
+	font-size:33px;
+	line-height:33px;
+	margin-bottom:15px;
+	color:#3D3C3B;
+	text-align:left;
+}

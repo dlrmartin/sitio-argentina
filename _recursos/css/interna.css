@@ -1,0 +1,15 @@
+@charset "iso-8859-1";
+/* aplica para interna.html solamente */
+
+
+#texto{
+	width:600px;
+}
+
+#foto{
+	width:305px;
+	background:#fff;
+	padding:8px;
+}
+
+

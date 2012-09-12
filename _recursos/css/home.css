@@ -1,0 +1,28 @@
+@charset "iso-8859-1";
+/* contenido de la sección Home */
+
+
+#marco-slideshow{
+	width:672px;
+	background:#fff;
+	padding:8px;
+	overflow:hidden;
+	position:relative;
+}
+
+#texto{
+	width:220px;
+	text-align:justify;
+}
+
+.nav-slideshow{
+	left: 8px;
+    position: absolute;
+    top: 117px;
+    z-index: 200;
+}
+#next{
+	position:absolute;
+	top:0;
+	left:646px;
+}

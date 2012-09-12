@@ -1,0 +1,14 @@
+
+
+/*correción de 3px en el padding del sector de links en la cabecera */
+#links p{
+	padding-top:3px;
+}
+
+
+/* para que el menú desplegable superponga a las sombras del cuerpo de la sección, la cabecera debe ubicarse en una capa superior */
+#cabecera{
+	position:relative;
+	z-index:80;
+}
+

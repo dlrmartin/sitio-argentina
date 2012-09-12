@@ -1,0 +1,44 @@
+@charset "iso-8859-1";
+/* sobreescribe las propiedades nececesaras  */
+
+
+.sf-menu a, .sf-menu a:visited  {
+	border:			0;
+	color:			#3D3C3B;
+	
+    font-family: 'helveticaneue_condensedRg';
+	font-size:14px;
+	padding: 		.75em 1em;
+}
+.sf-menu a:hover,
+.sf-menu a.activo{
+	color:#fff;
+}
+.sf-menu li {
+	background:		#f2edeb;
+}
+.sf-menu li li {
+	background:		#3D3C3B;
+}
+.sf-menu li li a{
+	color:#fff;
+	background:transparent url(../../../_imagenes/separador-item-navbar_03.jpg) bottom left repeat-x;
+}
+.sf-menu li li li {
+	background:		#6e6e6e;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#6e6e6e;
+	outline:		0;
+}
+
+
+.sf-menu ul{
+	width:13em;
+}
+
+
+
+
+
