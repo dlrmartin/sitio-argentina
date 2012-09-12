@@ -29,7 +29,7 @@
       <li><a href="http://foursquare.com/metododerosear" target="_blank"><img src="_imagenes/icono_2.png" width="32" height="32" alt="" /></a></li>
       
     </ul>
-    <p>Par&iacute;s &ndash; Londres &ndash; New York &ndash; Roma &ndash; Barcelona &ndash; Buenos Aires &ndash; Lisboa &ndash; Porto &ndash; R&iacute;o de Janeiro &ndash; S&atilde;o Paulo</p>
+    <p>Par&iacute;s &ndash; London &ndash; New York &ndash; Roma &ndash; Barcelona &ndash; Buenos Aires &ndash; Lisboa &ndash; Porto &ndash; R&iacute;o de Janeiro &ndash; S&atilde;o Paulo</p>
   </div>
   
   <div id="comunicate">
