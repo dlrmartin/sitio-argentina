@@ -29,8 +29,7 @@
 						<li id="second-image" class="hidden-slide"><img src="_imagenes/home/foto1.jpg" width="672" height="240" alt="" /></li>
 						<li id="third-image" class="hidden-slide"><img src="_imagenes/home/foto1.jpg" width="672" height="240" alt="" /></li>
 					</ul>
-					<div class="nav-slideshow"><a id="prev" href="#" title="<br />
-	Imagen Anterior"><img src="_imagenes/btn_prev.jpg" width="26" height="26" alt="Flecha izquierda" /></a> <a id="next" href="#" title="Imagen Siguiente"><img src="_imagenes/btn_next.jpg" width="26" height="26" alt="Flecha derecha" /></a></div>
+					<div class="nav-slideshow"><a id="prev" href="#"><img src="_imagenes/btn_prev.jpg" width="26" height="26" alt="Flecha izquierda" /></a> <a id="next" href="#"><img src="_imagenes/btn_next.jpg" width="26" height="26" alt="Flecha derecha" /></a></div>
 				</div>
 				
 				<div class="derecha" id="texto">
