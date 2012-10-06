@@ -8,9 +8,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 
-<?php include '_partial/shared/head.php' ?>
+<?php include '_partial/shared/head.php' ?/>
 
-<!-- a partir de acá se incluye lo que es específico de cada página -->
+<!-- a partir de acï¿½ se incluye lo que es especï¿½fico de cada pï¿½gina -->
 <link href="_recursos/css/home.css" rel="stylesheet" type="text/css" />
 </head>
 
