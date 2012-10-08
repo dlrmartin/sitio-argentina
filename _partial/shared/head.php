@@ -1,5 +1,5 @@
 <?php # Contenido del <head> compartido por varias paginas ?>
-<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
 <link href="_recursos/css/global.css" rel="stylesheet" type="text/css" />
 <!--[if IE 7]>
 <link href="_recursos/css/ie7fix.css" rel="stylesheet" type="text/css" />
